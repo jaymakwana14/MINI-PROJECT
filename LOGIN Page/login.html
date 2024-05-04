@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="CSS/login.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    </head>
+<body>
+    <div class="container">
+        <div class="box">
+         <div class="inner" id="card">
+            <div class="front">
+             <h2>LOGIN</h2> 
+             <form name="loginform" onsubmit=" return validate(this);" >
+             <input  type="text" maxlength="20"  placeholder="Enter Your Username" name="usr"> 
+             <input type="password" placeholder="Enter your Password"  name="pss">    
+             <button type="submit" class="sbutton"> Submit </button>
+             </form>
+        </div>
+            </div>
+        </div>
+    </div>
+    <script src="JS/email-validation.js"></script>
+</body>
+</html>
